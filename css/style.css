@@ -1,9 +1,42 @@
+html{
+    box-sizing: border-box;
+}
 *,
 *::after,
 *::before{
-    box-sizing: border-box;
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #040404;
 }
 a{
     text-decoration: none; /* Уберает подчеркивание под ссылкой */
     color: inherit; /* Цвет наследуется от родительского класса */
+}
+.container{
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+/* Блок header */
+.header {
+    padding-top: 25px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.menu__list {
+    display: flex;
+    gap: 0 40px;
+    padding-top: 25px;
+}
+.menu__list-link {
+    font-size: 16px;
+    color: #363636;
 }
