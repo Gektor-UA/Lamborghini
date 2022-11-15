@@ -21,8 +21,13 @@ a{
     text-decoration: none; /* Уберает подчеркивание под ссылкой */
     color: inherit; /* Цвет наследуется от родительского класса */
 }
-.container{
+.big-container{
     max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.container{
+    max-width: 920px;
     padding: 0 10px;
     margin: 0 auto;
 }
