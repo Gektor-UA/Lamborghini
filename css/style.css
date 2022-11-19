@@ -21,6 +21,9 @@ a{
     text-decoration: none; /* Уберает подчеркивание под ссылкой */
     color: inherit; /* Цвет наследуется от родительского класса */
 }
+img {
+    object-fit: cover;
+}
 .big-container{
     max-width: 1220px;
     padding: 0 10px;
@@ -107,4 +110,59 @@ a{
 .promo__arrow{
     margin: auto 0 30px;
     align-self: center; /* Властивість для flex елемента, яка дозволяє цьом елементу займати стільки простору скільки він сам займає а не на всю штрину */
+}
+
+/* Блок info */
+.info {
+    margin-bottom: 100px;
+}
+.info__part {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.info__text{
+    flex-basis: 439px;
+    margin-bottom: 30px;
+}
+.info__part--first{
+    display: block;
+}
+.info__part--second .info__text {
+    max-width: 352px;
+}
+.info__part--third .info__text {
+    max-width: 377px;
+}
+.info__part--third{
+    padding-top: 66px;
+}
+.info__title {
+    font-weight: 300;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.info__part-textbox {
+    display: flex;
+    gap: 0 20px;
+}
+.info__content {
+    flex-basis: 415px;
+}
+.info__table {
+    flex-basis: 450px;
+    border-bottom: 1px solid #040404;
+    position: relative;
+    top: 20px;
+}
+.info__table::before {
+    content: '';
+    position: absolute;
+    border-top: 1px solid #040404;
+    width: 100%;
+    top: -20px;
+}
+.info__table td {
+    padding-bottom: 20px;
 }
