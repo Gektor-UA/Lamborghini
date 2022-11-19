@@ -24,6 +24,12 @@ a{
 img {
     object-fit: cover;
 }
+h3 {
+    font-weight: 300;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
 .big-container{
     max-width: 1220px;
     padding: 0 10px;
@@ -137,12 +143,6 @@ img {
 .info__part--third{
     padding-top: 66px;
 }
-.info__title {
-    font-weight: 300;
-    font-size: 32px;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-}
 .info__part-textbox {
     display: flex;
     gap: 0 20px;
@@ -165,4 +165,27 @@ img {
 }
 .info__table td {
     padding-bottom: 20px;
+}
+
+/* блок track */
+.track {
+    background-image: url('../images/track-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.track__inner{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* padding: 47px 0 90px; */
+}
+.track__title {
+    padding-top: 47px;
+}
+.track__text {
+    max-width: 434px;
+}
+.track__img {
+    margin: auto auto 90px auto;
 }
