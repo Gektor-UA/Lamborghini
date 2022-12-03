@@ -247,8 +247,6 @@ h3 {
 .evo__descr-list dd {
     text-transform: uppercase;
 }
-.evo-white {
-}
 .evo-white__inner {
     padding-top: 125px;
     position: relative;
@@ -299,5 +297,42 @@ h3 {
     display: block;
     color: #FFFFFF;
 }
-.evo-white__img {
+
+/* Блок blog */
+.blog {
+    margin-bottom: 100px;
+}
+.blog__slider {
+    position: relative;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+.blog__item-img {
+    margin-bottom: 20px;
+}
+.blog__item-title {
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    min-height: 46px;
+}
+.blog__item-text {
+    margin-bottom: 10px;
+}
+.blog__item-link {
+    font-size: 12px;
+    color: #363636;
+}
+.blog__button{
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    left: 50%;
+}
+.swiper-button-left {
+    transform: translateX(-40px);
+}
+.swiper-button-right {
+    transform: translateX(8px);
 }
