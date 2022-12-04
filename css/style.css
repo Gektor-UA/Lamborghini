@@ -30,6 +30,9 @@ h3 {
     text-transform: uppercase;
     margin-bottom: 30px;
 }
+li {
+    list-style: none;
+}
 .big-container{
     max-width: 1220px;
     padding: 0 10px;
@@ -359,4 +362,69 @@ h3 {
 }
 .blockquote__text {
     font-style: italic;
+}
+
+/* Блок footer */
+.footer {
+    padding: 100px 0 80px;
+    background-color: #363636;
+    color: #FFFFFF;
+}
+.footer__title {
+    margin-bottom: 40px;
+}
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+}
+.footer__info {
+
+}
+.footer__info-item {
+    margin-bottom: 50px;
+}
+.footer__info-item dt,
+.footer__address-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer__info-item dd {
+    margin-bottom: 10px;
+}
+.social-list {
+    display: flex;
+    gap: 0 20px;
+    align-items: center;
+}
+.social-list__item {
+}
+.social-list__link {
+}
+.social-list__icon {
+}
+.footer__address {
+    flex-basis: 462px;
+}
+#map {
+    height: 250px;
+}
+.footer__address-text {
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.footer__bottom {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__bottom-link {
+}
+.footer__logo {
+}
+.footer-logo__img {
 }
